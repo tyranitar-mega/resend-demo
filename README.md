@@ -19,10 +19,15 @@ limitations under the License.
 Export the following environment variables in your terminal before running the demo:
 
 ```bash
-# The target email address to send the email to
-export RESEND_EMAIL=<your-email-address>
 # The domain you have set up in Resend
 export RESEND_DOMAIN=<domain>
 # The API key you generated in Resend
 export RESEND_API_KEY=<api-key>
+```
+
+Then, build and run:
+
+```bash
+go build
+./resend-demo
 ```
